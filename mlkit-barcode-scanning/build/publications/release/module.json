@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.hachimann",
+    "module": "mlkit-barcode-scanning",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "mlkit-barcode-scanning-0.0.1.aar",
+          "url": "mlkit-barcode-scanning-0.0.1.aar",
+          "size": 89063,
+          "sha512": "097305a1127d875a8d458b24cfe250c98bd9f88109e0487728d5d006d78536531d84989842f7eb4352f851e098022c7f9c3b964aa9323ccbf172b13adff1b776",
+          "sha256": "6f9fa31c0831a1f1e7eeb77accbdb3a59380428beb27b7bbf2fe45cac09c48a8",
+          "sha1": "fc2cd03a4fae912c33de38715ca3bec447904c19",
+          "md5": "7e2b2e69ffdbcea1efbaeb4a050a24dc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "barcode-scanning",
+          "version": {
+            "requires": "17.0.0"
+          }
+        },
+        {
+          "group": "android.arch.lifecycle",
+          "module": "extensions",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "15.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mlkit-barcode-scanning-0.0.1.aar",
+          "url": "mlkit-barcode-scanning-0.0.1.aar",
+          "size": 89063,
+          "sha512": "097305a1127d875a8d458b24cfe250c98bd9f88109e0487728d5d006d78536531d84989842f7eb4352f851e098022c7f9c3b964aa9323ccbf172b13adff1b776",
+          "sha256": "6f9fa31c0831a1f1e7eeb77accbdb3a59380428beb27b7bbf2fe45cac09c48a8",
+          "sha1": "fc2cd03a4fae912c33de38715ca3bec447904c19",
+          "md5": "7e2b2e69ffdbcea1efbaeb4a050a24dc"
+        }
+      ]
+    }
+  ]
+}
