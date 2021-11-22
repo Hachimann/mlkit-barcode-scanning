@@ -1,4 +1,6 @@
 # Mlkit Barcode Scanning
+[![](https://jitpack.io/v/Hachimann/mlkit-barcode-scanning.svg)](https://jitpack.io/#Hachimann/mlkit-barcode-scanning)
+
 Barcode scanner library for Android, based on [ML Kit's barcode scanning API][1].
 
 This project is based on [ML Kit Vision Quickstart Sample App][2] and provides the ability to quickly connect barcode scanning to the Android app.
