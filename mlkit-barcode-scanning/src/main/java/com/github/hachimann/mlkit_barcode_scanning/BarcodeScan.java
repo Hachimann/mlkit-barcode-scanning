@@ -4,6 +4,7 @@ import android.animation.AnimatorInflater;
 import android.animation.AnimatorSet;
 import android.app.Activity;
 import android.content.Context;
+import android.hardware.Camera;
 import android.view.View;
 
 import androidx.fragment.app.FragmentActivity;
@@ -34,6 +35,9 @@ public class BarcodeScan {
     private BarcodeResultListener barcodeResultListener;
     private BarcodeStringResultListener barcodeStringResultListener;
 
+    private final int resIdPoint;
+    private final int resIdCloser;
+    private final int resIdSearching;
 
     private BarcodeScan(Builder builder) {
         this.context = builder.context;
@@ -41,6 +45,10 @@ public class BarcodeScan {
         this.graphicOverlay = builder.graphicOverlay;
         this.promptChip = builder.promptChip;
         this.promptChipAnimator = builder.promptChipAnimator;
+
+        this.resIdPoint = builder.resIdPoint;
+        this.resIdCloser = builder.resIdCloser;
+        this.resIdSearching = builder.resIdSearching;
 
         apply();
     }
@@ -110,6 +118,16 @@ public class BarcodeScan {
         }
     }
 
+    @SuppressWarnings("deprecation")
+    public void enableFlash(boolean isEnabled) {
+        if (cameraSource == null)
+            return;
+        if (isEnabled)
+            cameraSource.updateFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
+        else
+            cameraSource.updateFlashMode(Camera.Parameters.FLASH_MODE_OFF);
+    }
+
     private void setUpWorkflowModel() {
         workflowModel = ViewModelProviders.of((FragmentActivity) context).get(WorkflowModel.class);
 
@@ -123,19 +141,19 @@ public class BarcodeScan {
             switch (workflowState) {
                 case DETECTING: {
                     promptChip.setVisibility(View.VISIBLE);
-                    promptChip.setText(R.string.prompt_point_at_a_barcode);
+                    promptChip.setText(resIdPoint == 0 ? R.string.prompt_point_at_a_barcode : resIdPoint);
                     startCameraPreview();
                     break;
                 }
                 case CONFIRMING: {
                     promptChip.setVisibility(View.VISIBLE);
-                    promptChip.setText(R.string.prompt_move_camera_closer);
+                    promptChip.setText(resIdCloser == 0 ? R.string.prompt_move_camera_closer : resIdCloser);
                     startCameraPreview();
                     break;
                 }
                 case SEARCHING: {
                     promptChip.setVisibility(View.VISIBLE);
-                    promptChip.setText(R.string.prompt_searching);
+                    promptChip.setText(resIdSearching == 0 ? R.string.prompt_searching : resIdSearching);
                     stopCameraPreview();
                     break;
                 }
@@ -173,6 +191,9 @@ public class BarcodeScan {
         private GraphicOverlay graphicOverlay;
         private Chip promptChip;
         private AnimatorSet promptChipAnimator;
+        private int resIdPoint;
+        private int resIdCloser;
+        private int resIdSearching;
 
         public Builder(Context context, CameraSourcePreview preview) {
             this.context = context;
@@ -223,6 +244,21 @@ public class BarcodeScan {
             BarcodeScan barcodeScan = new BarcodeScan(this);
             validateUserObject(barcodeScan);
             return barcodeScan;
+        }
+
+        public Builder setTextPointCamera(int resIdPoint) {
+            this.resIdPoint = resIdPoint;
+            return this;
+        }
+
+        public Builder setTextMoveCloser(int resIdCloser) {
+            this.resIdCloser = resIdCloser;
+            return this;
+        }
+
+        public Builder setTextSearching(int resIdSearching) {
+            this.resIdSearching = resIdSearching;
+            return this;
         }
 
         private void validateUserObject(BarcodeScan barcodeScan) throws Exception {

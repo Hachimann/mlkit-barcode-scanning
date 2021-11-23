@@ -232,6 +232,12 @@ public class CameraSource {
         return facing;
     }
 
+    public void updateFlashMode(String flashMode) {
+        Camera.Parameters parameters = camera.getParameters();
+        parameters.setFlashMode(flashMode);
+        camera.setParameters(parameters);
+    }
+
     /**
      * Opens the camera and applies the user settings.
      *

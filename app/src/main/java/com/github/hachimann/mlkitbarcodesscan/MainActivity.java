@@ -18,6 +18,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements BarcodeResultListener,
         BarcodeStringResultListener {
     BarcodeScan barcodeScan;
+    private View flashButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +38,20 @@ public class MainActivity extends AppCompatActivity implements BarcodeResultList
         }
 
         settingsButton = findViewById(R.id.settings_button);
+        setFlashButton();
+    }
+
+    private void setFlashButton() {
+        flashButton = findViewById(R.id.flash_button);
+        flashButton.setOnClickListener(view -> {
+            if (flashButton.isSelected()) {
+                barcodeScan.enableFlash(false);
+                flashButton.setSelected(false);
+            } else {
+                barcodeScan.enableFlash(true);
+                flashButton.setSelected(true);
+            }
+        });
     }
 
     /**
@@ -65,6 +80,7 @@ public class MainActivity extends AppCompatActivity implements BarcodeResultList
     @Override
     protected void onPause() {
         super.onPause();
+        flashButton.setSelected(false);
         barcodeScan.stopCameraPreview();
     }
 

@@ -14,35 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfffe185-8482-4954-bcd3-6e20bd7ca53b" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha256-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha512-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_4_aar.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_3_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_1_0_aar.xml" afterDir="false" />
@@ -121,180 +92,25 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/ML_Kit_Barcodes_Scan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/ML_Kit_Barcodes_Scan.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mlkit-barcode-scanning/ML_Kit_Barcodes_Scan.mlkit-barcode-scanning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/github/hachimann/mlkitbarcodesscan/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/github/hachimann/mlkitbarcodesscan/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/top_action_bar_in_live_camera.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/github/hachimann/mlkitbarcodesscan/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jitpack.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/generated/res/pngs/release/drawable-anydpi-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/generated/source/buildConfig/release/com/github/hachimann/mlkit_barcode_scanning/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/aapt_friendly_merged_manifests/release/aapt/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/aapt_friendly_merged_manifests/release/aapt/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/aar_main_jar/release/classes.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/aar_metadata/release/aar-metadata.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/annotation_processor_list/release/annotationProcessors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/annotations_typedef_file/release/typedefs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/compile_r_class_jar/release/R.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/compile_symbol_list/release/R.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/packageReleaseResources/merged.dir/values-night-v21/values-night-v21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/packageReleaseResources/merged.dir/values-night-v8/values-night-v8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/packageReleaseResources/merged.dir/values-v21/values-v21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/packageReleaseResources/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/incremental/release-mergeJavaRes/merge-state" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/BarcodeResultListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/BarcodeScan$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/BarcodeScan$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/BarcodeScan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/BarcodeStringResultListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/BuildConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/PreferenceUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/ScopedExecutor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeConfirmingGraphic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeField$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeField.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeFieldAdapter$BarcodeFieldViewHolder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeFieldAdapter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeGraphicBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeLoadingGraphic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeResultFragment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeReticleGraphic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeScannerProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/CameraReticleAnimator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSource$CameraPreviewCallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSource$FrameProcessingRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSource$SizePair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSource.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSourcePreview$SurfaceCallback.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSourcePreview.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/FrameMetadata$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/FrameMetadata.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/FrameProcessor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/FrameProcessorBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/GraphicOverlay$Graphic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/GraphicOverlay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/WorkflowModel$WorkflowState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/javac/release/classes/com/github/hachimann/mlkit_barcode_scanning/camera/WorkflowModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/local_only_symbol_list/release/R-def.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/manifest_merge_blame_file/release/manifest-merger-blame-release-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/merged_consumer_proguard_file/release/proguard.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/merged_java_res/release/feature-mlkit-barcode-scanning.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/merged_manifest/release/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_manifests/release/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/animator/bottom_prompt_chip_enter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable-anydpi-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable/barcode_field_box.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable/camera_flash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable/ic_close_vd_white_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable/ic_flash_off_vd_white_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable/ic_flash_on_vd_white_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable/ic_settings_vd_white_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/drawable/top_action_bar_scrim.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/layout/barcode_bottom_sheet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/layout/barcode_field.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/layout/camera_preview_overlay.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/values-night-v21/values-night-v21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/values-night-v8/values-night-v8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/values-v21/values-v21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/packaged_res/release/values/values.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/intermediates/symbol_list_with_package_name/release/package-aware-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/outputs/aar/mlkit-barcode-scanning-release.aar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/outputs/logs/manifest-merger-release-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/publications/release/module.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/publications/release/pom-default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/tmp/compileReleaseJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/tmp/publishReleasePublicationToMavenLocal/module-maven-metadata.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/androidTest/java/com/github/hachimann/mlkit_barcode_scanning/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/BarcodeResultListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/BarcodeScan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/BarcodeStringResultListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/PreferenceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/ScopedExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeConfirmingGraphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeFieldAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeGraphicBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeLoadingGraphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeResultFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeReticleGraphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/barcodedetection/BarcodeScannerProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/CameraReticleAnimator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSourcePreview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/FrameMetadata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/FrameProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/FrameProcessorBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/GraphicOverlay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/WorkflowModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/animator/bottom_prompt_chip_enter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable/barcode_field_box.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable/camera_flash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable/ic_close_vd_white_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable/ic_flash_off_vd_white_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable/ic_flash_on_vd_white_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable/ic_settings_vd_white_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/drawable/top_action_bar_scrim.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/layout/barcode_bottom_sheet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/layout/barcode_field.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/layout/camera_preview_overlay.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/values-night-v21/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/values-v21/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/test/java/com/github/hachimann/mlkit_barcode_scanning/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/github/hachimann/mlkitbarcodesscan/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/build/generated/source/buildConfig/debug/com/github/hachimann/mlkit_barcode_scanning/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/ML_Kit_Barcodes_Scan.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/ML_Kit_Barcodes_Scan.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mlkit-barcode-scanning/ML_Kit_Barcodes_Scan.mlkit-barcode-scanning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mlkit-barcode-scanning/ML_Kit_Barcodes_Scan.mlkit-barcode-scanning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/github/hachimann/mlkitbarcodesscan/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/github/hachimann/mlkitbarcodesscan/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/BarcodeScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/BarcodeScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,12 +142,15 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="20vdv9avkkmfmMcSyxEjxRxFK9o" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -339,7 +158,7 @@
     <property name="android-custom-viewC:/Users/Hachimann/AndroidStudioProjects/MLKitBarcodesScan/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/CameraSourcePreview.java_SELECTED" value="CameraSourcePreview" />
     <property name="android-custom-viewC:/Users/Hachimann/AndroidStudioProjects/MLKitBarcodesScan/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/camera/GraphicOverlay.java_SELECTED" value="GraphicOverlay" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GetScreen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mlkit-master/android/material-showcase" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -544,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637612635182</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Initial Commit">
+      <created>1637613341575</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637613341575</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -628,6 +454,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Changed JDK to Embedded JDK for Gradle plugin." />
     <MESSAGE value="Changed JavaVersion to 11." />
     <MESSAGE value="Added JitPack configuration file." />
@@ -643,12 +470,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/BarcodeScan.java</url>
-          <line>223</line>
+          <line>243</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/mlkit-barcode-scanning/src/main/java/com/github/hachimann/mlkit_barcode_scanning/BarcodeScan.java</url>
-          <line>98</line>
+          <line>106</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
