@@ -9,6 +9,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.widget.FrameLayout;
 
+import com.github.hachimann.mlkit_barcode_scanning.R;
 import com.google.android.gms.common.images.Size;
 
 import org.jetbrains.annotations.NotNull;
@@ -18,6 +19,7 @@ import java.io.IOException;
 public final class CameraSourcePreview extends FrameLayout {
 
     private final SurfaceView surfaceView;
+    private GraphicOverlay graphicOverlay;
     private boolean startRequested;
     private boolean surfaceAvailable;
     private CameraSource cameraSource;
@@ -34,6 +36,7 @@ public final class CameraSourcePreview extends FrameLayout {
     @Override
     protected void onFinishInflate() {
         super.onFinishInflate();
+        graphicOverlay = findViewById(R.id.camera_preview_graphic_overlay);
     }
 
     public final void start(@NotNull CameraSource cameraSource) throws IOException {
@@ -57,6 +60,11 @@ public final class CameraSourcePreview extends FrameLayout {
                 cameraSource.start(surfaceView.getHolder());
             }
             requestLayout();
+            if (graphicOverlay != null) {
+                if (cameraSource != null)
+                    graphicOverlay.setCameraInfo(cameraSource);
+                graphicOverlay.clear();
+            }
             startRequested = false;
         }
     }
@@ -88,8 +96,8 @@ public final class CameraSourcePreview extends FrameLayout {
             }
 
             // Center the child SurfaceView within the parent.
+            int scaledChildWidth = previewWidth * height / previewHeight;
             if (width * previewHeight < height * previewWidth) {
-                int scaledChildWidth = previewWidth * height / previewHeight;
                 for (int i = 0; i < getChildCount(); ++i) {
                     getChildAt(i).layout(
                             (width - scaledChildWidth) / 2, 0,
@@ -99,10 +107,17 @@ public final class CameraSourcePreview extends FrameLayout {
             } else {
                 int scaledChildHeight = previewHeight * width / previewWidth;
                 for (int i = 0; i < getChildCount(); ++i) {
-                    getChildAt(i).layout(
-                            0, (height - scaledChildHeight) / 2,
-                            width, (height + scaledChildHeight) / 2
-                    );
+                    if (!(getChildAt(i) instanceof FrameLayout)) {
+                        getChildAt(i).layout(
+                                0, (height - scaledChildHeight) / 2,
+                                width, (height + scaledChildHeight) / 2
+                        );
+                    } else {
+                        getChildAt(i).layout(
+                                (width - scaledChildWidth) / 2, 0,
+                                (width + scaledChildWidth) / 2, height
+                        );
+                    }
                 }
             }
         }

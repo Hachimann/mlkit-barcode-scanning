@@ -253,13 +253,9 @@ public class CameraSource {
 
         Camera.Parameters parameters = camera.getParameters();
 
-        Camera.Size optimalSize = getOptimalPreviewSize(
-                parameters.getSupportedPreviewSizes(),
-                graphicOverlay.getWidth(),
-                graphicOverlay.getHeight()
+        SizePair sizePair = getBiggestPreviewSize(
+                generateValidPreviewSizeList(camera)
         );
-
-        SizePair sizePair = new SizePair(optimalSize, optimalSize);
 
         if (sizePair.picture == null) {
             throw new IOException("Could not find suitable preview size.");
@@ -317,34 +313,50 @@ public class CameraSource {
         return camera;
     }
 
-    private Camera.Size getOptimalPreviewSize(List<Camera.Size> sizes, int w, int h) {
+    private SizePair getOptimalPreviewSize(List<SizePair> validPreviewSizes, int w, int h) {
         final double ASPECT_TOLERANCE = 0.1;
         double targetRatio = (double) h / w;
 
-        if (sizes == null) return null;
+        if (validPreviewSizes == null) return null;
 
-        Camera.Size optimalSize = null;
+        SizePair optimalSize = null;
         double minDiff = Double.MAX_VALUE;
 
-        for (Camera.Size size : sizes) {
-            double ratio = (double) size.width / size.height;
+        for (SizePair sizePair : validPreviewSizes) {
+            Size preview = sizePair.preview;
+            double ratio = (double) preview.getWidth() / preview.getHeight();
             if (Math.abs(ratio - targetRatio) > ASPECT_TOLERANCE) continue;
-            if (Math.abs(size.height - h) < minDiff) {
-                optimalSize = size;
-                minDiff = Math.abs(size.height - h);
+            if (Math.abs(preview.getHeight() - h) < minDiff) {
+                optimalSize = sizePair;
+                minDiff = Math.abs(preview.getHeight() - h);
             }
         }
 
         if (optimalSize == null) {
             minDiff = Double.MAX_VALUE;
-            for (Camera.Size size : sizes) {
-                if (Math.abs(size.height - h) < minDiff) {
-                    optimalSize = size;
-                    minDiff = Math.abs(size.height - h);
+            for (SizePair sizePair : validPreviewSizes) {
+                Size preview = sizePair.preview;
+                if (Math.abs(preview.getHeight() - h) < minDiff) {
+                    optimalSize = sizePair;
+                    minDiff = Math.abs(preview.getHeight() - h);
                 }
             }
         }
         return optimalSize;
+    }
+
+    private SizePair getBiggestPreviewSize(List<SizePair> validPreviewSizes) {
+        SizePair biggestSize = null;
+        int maxPreviewSize = 0;
+
+        for (SizePair sizePair : validPreviewSizes) {
+            Size preview = sizePair.preview;
+            if ((preview.getHeight() + preview.getWidth()) / 2 > maxPreviewSize) {
+                biggestSize = sizePair;
+                maxPreviewSize = (preview.getHeight() + preview.getWidth()) / 2;
+            }
+        }
+        return biggestSize;
     }
 
     /**
