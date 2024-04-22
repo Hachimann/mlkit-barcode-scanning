@@ -6,7 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Path;
 
 import com.github.hachimann.mlkit_barcode_scanning.camera.GraphicOverlay;
-import com.google.mlkit.vision.barcode.Barcode;
+import com.google.mlkit.vision.barcode.common.Barcode;
 
 import org.jetbrains.annotations.NotNull;
 

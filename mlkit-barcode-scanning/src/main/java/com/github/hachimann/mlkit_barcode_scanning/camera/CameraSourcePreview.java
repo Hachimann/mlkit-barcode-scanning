@@ -39,7 +39,7 @@ public final class CameraSourcePreview extends FrameLayout {
         graphicOverlay = findViewById(R.id.camera_preview_graphic_overlay);
     }
 
-    public final void start(@NotNull CameraSource cameraSource) throws IOException {
+    public void start(@NotNull CameraSource cameraSource) throws IOException {
         this.cameraSource = cameraSource;
         startRequested = true;
         startIfReady();
@@ -61,8 +61,9 @@ public final class CameraSourcePreview extends FrameLayout {
             }
             requestLayout();
             if (graphicOverlay != null) {
-                if (cameraSource != null)
+                if (cameraSource != null) {
                     graphicOverlay.setCameraInfo(cameraSource);
+                }
                 graphicOverlay.clear();
             }
             startRequested = false;

@@ -6,7 +6,7 @@ import androidx.annotation.MainThread;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.MutableLiveData;
 
-import com.google.mlkit.vision.barcode.Barcode;
+import com.google.mlkit.vision.barcode.common.Barcode;
 
 import org.jetbrains.annotations.NotNull;
 

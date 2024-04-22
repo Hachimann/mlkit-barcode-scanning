@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 import com.google.android.gms.common.images.Size;
@@ -52,7 +53,7 @@ public final class GraphicOverlay extends View {
     /**
      * Removes all graphics from the overlay.
      */
-    public final void clear() {
+    public void clear() {
         synchronized (lock) {
             graphics.clear();
         }
@@ -62,7 +63,7 @@ public final class GraphicOverlay extends View {
     /**
      * Adds a graphic to the overlay.
      */
-    public final void add(@NotNull GraphicOverlay.Graphic graphic) {
+    public void add(@NotNull GraphicOverlay.Graphic graphic) {
         synchronized (lock) {
             graphics.add(graphic);
         }
@@ -72,10 +73,11 @@ public final class GraphicOverlay extends View {
      * Sets the camera attributes for size and facing direction, which informs how to transform image
      * coordinates later.
      */
-    public final void setCameraInfo(@NotNull CameraSource cameraSource) {
+    public void setCameraInfo(@NotNull CameraSource cameraSource) {
         Size previewSize = cameraSource.getPreviewSize();
-        if (previewSize == null)
+        if (previewSize == null) {
             return;
+        }
         if (getContext().getResources().getConfiguration().orientation
                 == Configuration.ORIENTATION_PORTRAIT) {
             // Swap width and height when in portrait, since camera's natural orientation is landscape.
@@ -87,11 +89,11 @@ public final class GraphicOverlay extends View {
         }
     }
 
-    public final float translateX(float x) {
+    public float translateX(float x) {
         return x * widthScaleFactor;
     }
 
-    public final float translateY(float y) {
+    public float translateY(float y) {
         return y * heightScaleFactor;
     }
 
@@ -100,7 +102,7 @@ public final class GraphicOverlay extends View {
      * coordinate system.
      */
     @NotNull
-    public final RectF translateRect(@NotNull Rect rect) {
+    public RectF translateRect(@NotNull Rect rect) {
         return new RectF(
                 translateX((float) rect.left),
                 translateY((float) rect.top),

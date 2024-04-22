@@ -253,8 +253,11 @@ public class CameraSource {
 
         Camera.Parameters parameters = camera.getParameters();
 
-        SizePair sizePair = getBiggestPreviewSize(
-                generateValidPreviewSizeList(camera)
+        //Selects the optimal camera preview size compatible with the screen size.
+        SizePair sizePair = getOptimalPreviewSize(
+                generateValidPreviewSizeList(camera),
+                graphicOverlay.getWidth(),
+                graphicOverlay.getHeight()
         );
 
         if (sizePair.picture == null) {
@@ -326,20 +329,21 @@ public class CameraSource {
             Size preview = sizePair.preview;
             double ratio = (double) preview.getWidth() / preview.getHeight();
             if (Math.abs(ratio - targetRatio) > ASPECT_TOLERANCE) continue;
-            if (Math.abs(preview.getHeight() - h) < minDiff) {
+            if (Math.abs(preview.getWidth() - h) < minDiff) {
                 optimalSize = sizePair;
-                minDiff = Math.abs(preview.getHeight() - h);
+                minDiff = Math.abs(preview.getWidth() - h);
             }
         }
 
+        double minRatio = Double.MAX_VALUE;
+
         if (optimalSize == null) {
-            minDiff = Double.MAX_VALUE;
             for (SizePair sizePair : validPreviewSizes) {
                 Size preview = sizePair.preview;
-                if (Math.abs(preview.getHeight() - h) < minDiff) {
-                    optimalSize = sizePair;
-                    minDiff = Math.abs(preview.getHeight() - h);
-                }
+                double ratio = (double) preview.getWidth() / preview.getHeight();
+                if (Math.abs(ratio - targetRatio) > minRatio) continue;
+                minRatio = Math.abs(ratio - targetRatio);
+                optimalSize = sizePair;
             }
         }
         return optimalSize;

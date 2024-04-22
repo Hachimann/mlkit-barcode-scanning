@@ -11,9 +11,10 @@ import com.github.hachimann.mlkit_barcode_scanning.BarcodeScan;
 import com.github.hachimann.mlkit_barcode_scanning.BarcodeStringResultListener;
 import com.github.hachimann.mlkit_barcode_scanning.barcodedetection.BarcodeField;
 import com.github.hachimann.mlkit_barcode_scanning.barcodedetection.BarcodeResultFragment;
-import com.google.mlkit.vision.barcode.Barcode;
+import com.google.mlkit.vision.barcode.common.Barcode;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity implements BarcodeResultListener,
         BarcodeStringResultListener {
@@ -102,6 +103,6 @@ public class MainActivity extends AppCompatActivity implements BarcodeResultList
 
     @Override
     public void onBarcodeResult(Barcode barcode) {
-        Log.i("Barcode", barcode.getRawValue());
+        Log.i("Barcode", Objects.requireNonNull(barcode.getRawValue()));
     }
 }

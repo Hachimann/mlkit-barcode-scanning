@@ -1,5 +1,7 @@
 package com.github.hachimann.mlkit_barcode_scanning.camera;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ValueAnimator;
 
@@ -86,6 +88,20 @@ public class CameraReticleAnimator {
                 rippleStrokeWidthShrinkAnimator,
                 fakeAnimatorForRestartDelay
         );
+
+        animatorSet.addListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                // Reset animation parameters
+                resetAnimationParameters();
+            }
+        });
+    }
+
+    private void resetAnimationParameters() {
+        rippleAlphaScale = 0f;
+        rippleSizeScale = 0f;
+        rippleStrokeWidthScale = 1f;
     }
 
     public final float getRippleAlphaScale() {

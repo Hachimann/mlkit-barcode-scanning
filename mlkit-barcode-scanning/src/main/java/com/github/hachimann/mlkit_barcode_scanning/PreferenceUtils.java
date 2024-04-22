@@ -3,7 +3,7 @@ package com.github.hachimann.mlkit_barcode_scanning;
 import android.graphics.RectF;
 
 import com.github.hachimann.mlkit_barcode_scanning.camera.GraphicOverlay;
-import com.google.mlkit.vision.barcode.Barcode;
+import com.google.mlkit.vision.barcode.common.Barcode;
 
 public class PreferenceUtils {
     private static boolean enableBarcodeSizeCheck = false;
