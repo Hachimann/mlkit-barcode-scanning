@@ -15,7 +15,7 @@ afterEvaluate {
                 from components.release
                 artifactId = 'mlkit-barcode-scanning'
                 groupId = "com.github.hachimann"
-                version = '0.0.4'
+                version = '0.0.5'
                 pom {
                     name = 'Mlkit Barcode Scanning'
                     description = 'Barcode scanner library for Android, based on ML Kit\'s barcode scanning API'
